@@ -21,6 +21,10 @@ public class P1TwoSum {
     public static void main(String[] args) {
         Solution solution = new P1TwoSum().new Solution();
         // TO TEST
+        int[] a = solution.twoSum(new int[]{1,2,3,4},5);
+        for (int i = 0; i < a.length; i++) {
+            System.out.println(a[i]);
+        }
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
