@@ -15,18 +15,27 @@
 // 👍 8608 👎 0
 
 package leetcode.editor.cn;
+
 //Java：两数之和
-public class P1TwoSum{
+public class P1TwoSum {
     public static void main(String[] args) {
         Solution solution = new P1TwoSum().new Solution();
         // TO TEST
     }
+
     //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int[] twoSum(int[] nums, int target) {
-        return null;
+    class Solution {
+        public int[] twoSum(int[] nums, int target) {
+            for (int i = 0; i < nums.length; i++) {
+                for (int j = i + 1; j < nums.length; j++) {
+                    if (nums[j] == target - nums[i]) {
+                        return new int[]{i, j};
+                    }
+                }
+            }
+            return new int[]{0, 0};
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
