@@ -31,7 +31,7 @@ public class P7ReverseInteger {
     public static void main(String[] args) {
         Solution solution = new P7ReverseInteger().new Solution();
         // TO TEST
-        int a = solution.reverse(345);
+        int a = solution.reverse(123);
         System.out.println(a);
     }
 
