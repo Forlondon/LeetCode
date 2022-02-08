@@ -56,6 +56,6 @@ public class P7ReverseInteger {
             return res;
         }
     }
-//leetcode submit region end(Prohibit modification and deletion)
+    //leetcode submit region end(Prohibit modification and deletion)
 
 }
